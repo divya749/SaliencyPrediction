@@ -4,7 +4,7 @@ INTRODUCTION
 
 This work focuses on the prediction of visual attention, or, saliency, in a 360 degree signal. The 360-degree image is provided as an input in the form of an
 equirectangular image. 
-Application of conventional saliency models to simple equirectangularimages results in inaccurate saliency prediction. Therefore, we represent the input
+Application of conventional saliency models to simple equirectangular images results in inaccurate saliency prediction. Therefore, we represent the input
 equirectangular image to cube-map based form before predicting saliency. 
 After saliency prediction, we convert the cube-map image back to equirectangular format. In this way, the
 problems arising due to distortions in an equirectangular image are minimized. 
